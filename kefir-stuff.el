@@ -19,9 +19,6 @@
 
   (menu-bar-mode -1)
   (scroll-bar-mode -1)
-  (tool-bar-mode -1)
-
-  (if (font-exists-p "Terminus")
-      (set-frame-font "Terminus 14" nil t)))
+  (tool-bar-mode -1))
 
 (provide 'kefir-stuff)
